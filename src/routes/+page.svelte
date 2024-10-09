@@ -107,7 +107,7 @@
 
 <style>
 	div {
-		background-image: url('assets/background.png');
+		background-image: url('../../../assets/background.png');
 		background-repeat: no-repeat, no-repeat;
 	}
 </style>
