@@ -23,7 +23,7 @@
 			element: container!,
 			engine,
 			options: {
-				width: 1200,
+				width: 1440,
 				height: 600,
 				showAngleIndicator: true,
 				wireframes: false,
@@ -98,7 +98,7 @@
 		// fit the render viewport to the scene
 		Render.lookAt(render, {
 			min: { x: 0, y: 0 },
-			max: { x: 1400, y: 600 }
+			max: { x: 1440, y: 600 }
 		});
 	});
 </script>
