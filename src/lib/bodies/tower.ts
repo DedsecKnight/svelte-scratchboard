@@ -16,7 +16,7 @@ export const generateTower = () => {
     mascots.push(Matter.Bodies.circle(xPos + 500, 450 - 100, 20, {
       render: {
         sprite: {
-          texture: "assets/capybara.png",
+          texture: "../../assets/capybara.png",
           yScale: 0.08,
           xScale: 0.08
         }
@@ -75,7 +75,7 @@ export const generateTower = () => {
   mascots.push(Matter.Bodies.circle(460 + 500, 390 - 100, 10, {
     render: {
       sprite: {
-        texture: "assets/duck.png",
+        texture: "../../assets/duck.png",
         yScale: 0.05,
         xScale: 0.05
       }
@@ -84,7 +84,7 @@ export const generateTower = () => {
   mascots.push(Matter.Bodies.circle(640 + 500, 390 - 100, 10, {
     render: {
       sprite: {
-        texture: "assets/duck.png",
+        texture: "../../assets/duck.png",
         yScale: 0.05,
         xScale: 0.05
       }
