@@ -24,9 +24,8 @@
 			cell: ({ value }) => {
 				return createRender(Button, {
 					variant: 'outline',
-          href: value,
-				})
-					.slot('Click to check it out')
+					href: '/scratchboards' + value
+				}).slot('Click to check it out');
 			}
 		})
 	]);
