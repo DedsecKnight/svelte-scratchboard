@@ -39,7 +39,9 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^5.4.5",
+		"lucide-svelte": "^0.452.0",
 		"matter-js": "^0.20.0",
+		"mode-watcher": "^0.4.1",
 		"svelte-headless-table": "^0.18.2"
 	}
 }
