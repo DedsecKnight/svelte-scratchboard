@@ -32,9 +32,16 @@
 		Render.run(render);
 		const runner = Runner.create();
 		Runner.run(runner, engine);
-		const ground = Bodies.rectangle(695 + 500, 600 - 200, 815, 50, {
+		const ground = Bodies.rectangle(695 + 350, 700 - 200, 715, 100, {
 			isStatic: true,
-			render: { fillStyle: '#ff5733' }
+			render: {
+				// fillStyle: '#FFFFFF'
+				sprite: {
+					texture: '../../assets/platform.png',
+					xScale: 0.9,
+					yScale: 0.7
+				}
+			}
 		});
 
 		let rock = Bodies.polygon(170, 450, 8, 20, {
@@ -42,8 +49,8 @@
 			render: {
 				sprite: {
 					texture: '../../assets/mascot.png',
-					xScale: 0.1,
-					yScale: 0.1
+					xScale: 0.2,
+					yScale: 0.2
 				}
 			}
 		});
@@ -80,8 +87,8 @@
 					render: {
 						sprite: {
 							texture: '../../assets/mascot.png',
-							xScale: 0.1,
-							yScale: 0.1
+							xScale: 0.2,
+							yScale: 0.2
 						}
 					}
 				});
